@@ -1,0 +1,42 @@
+.jumbotron{
+	margin-top:30px;
+	padding-bottom:100px;
+	opacity:0.7;
+}
+#app-title{
+	color:#fb0000;
+	font-size:52px;
+	font-family:cursive,sans-serif;
+}
+.decorate{
+	text-decoration:underline;
+	text-decoration-color: #ffff00;
+	border-right:5px;
+	border-radius: 5px;
+	padding:10px;
+	background:#eee;
+	border-right-color:#000;
+}
+.shareButton{
+	width:70px;
+}
+.nextButton{
+	width:90px;
+}
+
+@media only screen and (max-width:320px){
+	.shareButton{
+			font-size:12px;
+			margin-top:5px;
+			margin-right:20px;
+	}
+	.nextButton{
+		font-size:12px;
+		margin-right:20px;
+		margin-top:5px;
+	}
+	.jumbotron{
+		width:250px;
+		height:300px;
+	}
+}

@@ -1,0 +1,99 @@
+h1{
+  font-size:48px;
+}
+h2{
+  font-size:32px;
+  margin-top:30px;
+  margin-bottom:25px;
+}
+h3{
+  font-size:28px;
+}
+p{
+  font-size:18px;
+}
+body{
+  font-family: 'Barlow Condensed', sans-serif;
+  color:#5a5a5a;
+  margin:0px;
+}
+header,footer,aside,nav,form{
+  display:block;
+  margin:0;
+  padding:0;
+}
+.navbar{
+  padding:15px 0 15px 0;
+  letter-spacing:5px;
+  border-radius:0;
+  background-color:rgba(28, 33, 42, 0.9);
+  position: relative;
+  min-height: 50px;
+  border: 1px solid transparent;
+  margin-bottom:0px;
+}
+.navbar .navbar-default{
+  background-color:#e5faff;
+}
+.navbar-nav li a:hover {
+    color: #003d4d !important;
+}
+.right{
+  float:right;
+}
+.left{
+  float:left;
+}
+#about{
+  width:600px;
+}
+.jumbotron{
+  background:#fff;
+  color:#5a5a5a;
+  margin-top:0px;
+}
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 150;
+    color:#5a5a5a;
+    margin-bottom:50px;
+}
+div .portfolio-card{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+.description{
+  text-align:center;
+  padding:10px 20px;
+}
+.thumbnail p{
+  color:#585858;
+}
+.row h2{
+  color:#585858;
+}
+#contact{
+  color:#585858;
+  background:#d9d9d9;
+  margin-top:90px;
+}
+.fa{
+  color:#fff;
+  font-size:40px;
+  border-radius:100%;
+  padding:15px;
+  background:#002699;
+}
+a:hover{
+  text-decoration:none;
+}
+.fa:hover{
+  background:#abadda;
+}
+footer{
+  padding:20px 20px;
+  background:#2f2f2f;
+  color:#e5f0ff;
+}

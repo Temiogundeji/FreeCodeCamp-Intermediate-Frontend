@@ -1,0 +1,42 @@
+#header{
+  padding:70px 50px;
+  background:orange;
+  color:#ccc;
+  font-family:cursive;
+  font-weight:700;
+}
+.result
+#results{
+  position: relative;
+  width: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 65px;
+  background:grey;
+  padding:20px;
+}
+.container{
+  margin:0 0 50px 0;
+}
+form{
+  margin-top:100px;
+ /** margin-left:100px;**/
+}
+.btn{
+  background:#000;
+  color:orange;
+  width:100px;
+}
+.container-fluid{
+  padding:0 400px; 
+}
+span{
+  margin-left:30px;
+}
+input[type=text]{
+   border: 3px solid #555;
+   width:100%;
+}
+form{
+  min-width:90%;
+}
